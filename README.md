@@ -7,8 +7,6 @@ The [GitHub version](https://github.com/yandexdataschool/Practical_RL) of the co
 
 # Week 1: Intro
 
-## Content
-
 * Reinforcement Learning
   * Multi-armed bandit
   * Decision process & applications
@@ -21,8 +19,6 @@ The [GitHub version](https://github.com/yandexdataschool/Practical_RL) of the co
   * Approximate crossentropy method
     * 
 * Evolution strategies
-
-## Implementation
 
 ### gym_interface.ipynb
 
@@ -39,8 +35,6 @@ The [GitHub version](https://github.com/yandexdataschool/Practical_RL) of the co
 
 # Week 2: Dynamic Programming 
 
-## Content
-
 * Reward
   * Reward design
   * Discount reward
@@ -51,8 +45,6 @@ The [GitHub version](https://github.com/yandexdataschool/Practical_RL) of the co
   * Policy evaluation & improvement
   * Policy and value iteration
 
-## Implementation
-
 ### practice_vi.ipynb
 
 * Implemented value **iteration algorithm** to solve MDP problem
@@ -60,14 +52,11 @@ The [GitHub version](https://github.com/yandexdataschool/Practical_RL) of the co
 
 # Week 3: Model-free Methods
 
-## Content
 
 * Model-free learning
   * Monte-Carlo & temporal difference; Q-learning
   * Exploration vs exploitation
 * On-policy vs off-policy
-
-## Implementation
 
 ### qlearning.ipynb
 
