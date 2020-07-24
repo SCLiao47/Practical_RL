@@ -78,3 +78,34 @@ The [GitHub version](https://github.com/yandexdataschool/Practical_RL) of the co
 
 # Week 4: Approximate Value Based Methods
 
+* Limitations of tabular methods
+* Deep Q-network
+
+### practice_approx_qlearning_pytorch.ipynb
+
+* implement a neural network to approximate the action-value function $Q(s,a)$
+* solving continuous state space environment 'CartPole-v0'
+
+### dqn_atari_pytorch.ipynb (not finished)
+
+* implement DQN for 'BreakoutNoFrameskip-v4' environment
+  * image processing
+  * frame buffer
+  * deep Q-network
+  * experience replay
+  * target networks
+
+# Week 5: Policy-based Methods
+
+* Policy-based RL vs value-based RL
+  * policy gradient
+* REINFORCE
+  * $\nabla_\theta\hat{J}(\theta) \approx \frac{1}{N}\Sigma_{s_i,a_i}\nabla_\theta \log\pi_\theta(a_i|s_i) \cdot G_t(s_i,a_i)$
+* Actor-critic method
+  * advantage actor-critic
+
+### practice_reinforce_pytorch.ipynb
+
+* implement policy gradient method REINFORCE to solve 'CartPole-v0'
+
+  
