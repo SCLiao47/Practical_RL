@@ -82,3 +82,10 @@ The [GitHub version](https://github.com/yandexdataschool/Practical_RL) of the co
   * $\hat{Q}(s,a) = r(s,a) + r\mathbb{E}_{a_i \sim \pi(a|s')}Q(s',a_i)$ with probability of $a_i \sim \pi(a|s')$ being $(1-\epsilon)$ optimal action and $\epsilon$ random action
   * update $Q(s,a) \leftarrow (1-\alpha)*Q(s,a) + \alpha*\hat{Q}(s,a)$
 * compare the learning curve of Q-learning and SARSA
+
+### experience_replay.ipynb
+
+* implement **experiment replay** for off-line policy, Q-learning in this implementation
+
+# Week 4: Approximate Value Based Methods
+
