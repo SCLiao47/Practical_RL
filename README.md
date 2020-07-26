@@ -108,4 +108,33 @@ The [GitHub version](https://github.com/yandexdataschool/Practical_RL) of the co
 
 * implement policy gradient method REINFORCE to solve 'CartPole-v0'
 
-  
+
+# Week 6: Exploration
+
+* Measuring the quality of exploration
+  * Regret
+* Uncertainty-based exploration
+  * **Thompson sampling**: sample while taking into account actual distribution of rewards
+  * Optimism in the face of uncertainty
+  * **UCB-1**: select among actions that are uncertain or have potential to be optimal
+  * Bayesian UCB
+* Planning with Monte Carlo tree search
+  * MCTS
+    * selection: from root state recursively select node (next state by action) with exploration strategies (tree policy)
+    * expansion: expand the node with feasible actions
+    * simulation: estimate the value of the node by a rollout policy or some estimation model
+    * backpropagation: propagate the estimation of action-state value to upper node utile root
+
+### bandits.ipynb
+
+* implement exploration strategies for bernoulli bandit
+  * epsilon-greedy agent
+  * UCB agent
+  * Thompson sampling
+
+### practice_mcts.ipynb
+
+* implement Monte Carlo Tree Search algorithm to plan and solve the 'CartPole-v0' task
+  * selection (tree policy) is explored by UCB1
+  * simulation is rollout by random selection of actions
+
